@@ -56,6 +56,7 @@ public class AuthorityServiceImpl implements AuthorityService {
             }
             rst.put(ag, author);
         }
+
         return rst;
     }
 
