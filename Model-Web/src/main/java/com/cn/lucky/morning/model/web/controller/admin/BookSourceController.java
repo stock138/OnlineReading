@@ -193,6 +193,13 @@ public class BookSourceController {
         return result;
     }
 
+    /**
+     * 备注
+     * @param key
+     * @param bookSource
+     * @param type
+     * @return
+     */
     @RequestMapping("/doTest")
     @ResponseBody
     @RequiresPermissions(value = {"BOOK_SOURCE_VIEW", Const.role.ROLE_SUPER}, logical = Logical.OR)
